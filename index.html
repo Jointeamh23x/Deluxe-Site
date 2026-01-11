@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Deluxe | Gaming & Discord</title>
-
+  <title>Squid Game Deluxe | Gaming & Discord</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       background: #0b0b0b;
       color: white;
       text-align: center;
@@ -20,6 +19,8 @@
     h1 {
       font-size: 48px;
       margin-bottom: 10px;
+      color: #e50914; /* Squid Game red */
+      font-family: 'Arial Black', sans-serif;
     }
 
     p {
@@ -27,20 +28,27 @@
       color: #ccc;
     }
 
-    .discord-btn {
+    .link-btn {
       display: inline-block;
-      margin-top: 30px;
+      margin: 20px 15px;
       padding: 15px 30px;
-      background: #5865F2;
+      background: #1a1a1a;
       color: white;
       text-decoration: none;
       font-size: 20px;
-      border-radius: 10px;
+      border-radius: 12px;
+      border: 2px solid #e50914;
       transition: 0.3s;
+      position: relative;
+      overflow: hidden;
     }
 
-    .discord-btn:hover {
-      background: #4752c4;
+    /* Squid Game hover effect: glow red/green */
+    .link-btn:hover {
+      color: #0b0b0b;
+      background: #e50914;
+      box-shadow: 0 0 20px #e50914;
+      transform: scale(1.05);
     }
 
     footer {
@@ -48,24 +56,40 @@
       padding: 20px;
       font-size: 14px;
       color: #777;
+      border-top: 1px solid #333;
+    }
+
+    /* Optional: shapes like Squid Game */
+    .shape {
+      font-size: 24px;
+      margin-right: 8px;
     }
   </style>
 </head>
-
 <body>
 
   <header>
-    <h1>🎮 Deluxe</h1>
-    <p>Gaming Community & Discord Server</p>
+    <h1>🟥 Squid Game Deluxe 🟩</h1>
+    <p>Gaming Community & Discord – Enter the Game</p>
 
-    <a class="discord-btn" href="https://discord.gg/jw4YJkbNtu" target="_blank">
-      🚀 Join Discord
+    <a class="link-btn" href="https://example.com/squidgame" target="_blank">
+      ⬛ Squid Game Deluxe
+    </a>
+    <a class="link-btn" href="https://example.com/roleplay" target="_blank">
+      ◯ Roleplay
+    </a>
+    <a class="link-btn" href="https://discord.gg/jw4YJkbNtu" target="_blank">
+      △ The Group Discord
+    </a>
+    <a class="link-btn" href="https://example.com/more" target="_blank">
+      ◇ More
     </a>
   </header>
 
   <footer>
-    © 2026 Deluxe – Alle Rechte vorbehalten
+    © 2026 Squid Game Deluxe – All Rights Reserved
   </footer>
 
 </body>
 </html>
+
